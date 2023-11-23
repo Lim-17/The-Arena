@@ -1,0 +1,96 @@
+*{
+font-family:Sans-serif;
+margin:0;
+padding:0;
+}
+body{
+background-color:#641414;
+margin:0px;
+}
+.top{
+background-image:url('https://images5.alphacoders.com/113/thumb-1920-1138899.png');
+padding:18px;
+}
+h1{
+font-size:72px;
+text-align:center;
+color:red;
+}
+h2{
+font-size:36px;
+text-align:center;
+color:white;
+}
+h3{
+font-size:28px;
+color:red;
+margin-left:18px;
+margin-top:56px;
+}
+h4{
+font-size:24px;
+color:white;
+margin:42px 18px 18px;
+}
+.main{
+max-width:720px;
+margin:0 auto;
+}
+p,.game,.game li{
+font-family:Garamond;
+font-size:20px;
+line-height:28px;
+color:white;
+margin:18px;
+}
+.equipment{
+font-family:Garamond;
+text-decoration:underline;
+height:28px;
+overflow:hidden;
+}
+.equipment:hover{
+height:auto;
+}
+.sign{
+width:200px;
+margin:18px;
+}
+.map{
+width:45%;
+margin:0 auto;
+}
+.map img{
+width:100%;
+border:3px solid black;
+}
+img{
+border-radius:0px;
+}
+img:hover{
+border-radius:32px;
+}
+.timeline{
+max-width:95%;
+margin:0 auto;
+}
+.timeline img{
+width:100%;
+border:3px solid black;
+}
+figcaption{
+font-size:16px;
+color:red;
+margin-bottom:36px;
+}
+.contents{
+color:white;
+margin:18px;
+}
+.contents a{
+color:white;
+font-weight:bold;
+}
+.contents a:hover{
+color:blue;
+}
