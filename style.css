@@ -1,15 +1,14 @@
 *{
 font-family:Sans-serif;
-margin:0;
-padding:0;
+margin:0 0 0 0;
+padding:0 0 0 0;
 }
 body{
 background-color:#641414;
-margin:0px;
 }
 .top{
 background-image:url('https://images5.alphacoders.com/113/thumb-1920-1138899.png');
-padding:18px;
+padding:36px;
 }
 h1{
 font-size:72px;
@@ -32,9 +31,34 @@ font-size:24px;
 color:white;
 margin:42px 18px 18px;
 }
+.not-top{
+text-align:center;
+}
+.contents{
+display:inline-block;
+width:100%;
+position:sticky;
+top:0;
+background-color:red;
+}
+.contents a{
+display:inline-block;
+width:25%;
+margin:1em auto;
+color:white;
+font-weight:bold;
+font-size:16px;
+line-height:1;
+text-align:center;
+text-transform:uppercase;
+}
+.contents a:hover{
+color:blue;
+}
 .main{
+text-align:left;
 max-width:720px;
-margin:0 auto;
+display:inline-block;
 }
 p,.game,.game li{
 font-family:Garamond;
@@ -43,6 +67,9 @@ line-height:28px;
 color:white;
 margin:18px;
 }
+.game li em{
+font-family:Garamond;
+}
 .equipment{
 font-family:Garamond;
 text-decoration:underline;
@@ -50,10 +77,11 @@ height:28px;
 overflow:hidden;
 }
 .equipment:hover{
+text-decoration:none;
 height:auto;
 }
 .sign{
-width:200px;
+width:160px;
 margin:18px;
 }
 .map{
@@ -82,15 +110,4 @@ figcaption{
 font-size:16px;
 color:red;
 margin-bottom:36px;
-}
-.contents{
-color:white;
-margin:18px;
-}
-.contents a{
-color:white;
-font-weight:bold;
-}
-.contents a:hover{
-color:blue;
 }
